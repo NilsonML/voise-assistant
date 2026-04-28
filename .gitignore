@@ -1,0 +1,21 @@
+echo "# Python
+__pycache__/
+*.pyc
+venv/
+*.exe
+*.dll
+build/
+dist/
+*.log
+.DS_Store
+
+# Проект
+vosk-model-small-ru-0.22/
+temp/
+logs/
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/" > .gitignore

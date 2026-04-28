@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Открыть браузер",
+    "phrases": [
+      "открой браузер",
+      "запусти браузер",
+      "браузер"
+    ],
+    "action_type": "url",
+    "action": "https://www.google.com"
+  },
+  {
+    "name": "Открыть YouTube",
+    "phrases": [
+      "открой ютуб",
+      "включи ютуб",
+      "youtube"
+    ],
+    "action_type": "url",
+    "action": "https://www.youtube.com"
+  },
+  {
+    "name": "Блокнот",
+    "phrases": [
+      "открой блокнот",
+      "запусти блокнот",
+      "блокнот"
+    ],
+    "action_type": "app",
+    "action": "notepad.exe"
+  },
+  {
+    "name": "Калькулятор",
+    "phrases": [
+      "открой калькулятор",
+      "калькулятор",
+      "посчитай"
+    ],
+    "action_type": "app",
+    "action": "calc.exe"
+  },
+  {
+    "name": "Проводник",
+    "phrases": [
+      "открой проводник",
+      "проводник",
+      "мои документы"
+    ],
+    "action_type": "folder",
+    "action": "C:\\Users"
+  },
+  {
+    "name": "вс код",
+    "phrases": [
+      "Открой код"
+    ],
+    "action_type": "app",
+    "action": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code.lnk"
+  }
+]

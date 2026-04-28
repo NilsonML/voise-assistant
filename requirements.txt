@@ -1,0 +1,15 @@
+pyaudio
+pyaudiowpatch
+SpeechRecognition
+faster-whisper
+torch
+ollama
+openai
+python-dotenv
+edge-tts
+pygame
+imageio-ffmpeg
+python-docx
+numpy
+sounddevice
+ctranslate2
