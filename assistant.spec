@@ -1,8 +1,10 @@
 # assistant.spec
 import os
 
-# Путь к папке vosk
-vosk_path = r"C:\Users\user\Desktop\voice_assistant\venv\Lib\site-packages\vosk"
+# Путь к папке vosk берём из установленного пакета, а не из жёстко
+# прописанного C:\Users\user\... — так spec собирается на любой машине.
+import vosk
+vosk_path = os.path.dirname(vosk.__file__)
 
 a = Analysis(
     ['gui.py'],
