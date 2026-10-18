@@ -1,21 +1,27 @@
-echo "# Python
+# Секреты — никогда не коммитить
+.env
+
+# Python
 __pycache__/
 *.pyc
 venv/
-*.exe
-*.dll
+.venv/
+
+# Сборка PyInstaller
 build/
 dist/
-*.log
-.DS_Store
+*.exe
+*.dll
 
-# Проект
+# Модели и данные (скачиваются отдельно)
 vosk-model-small-ru-0.22/
 temp/
 logs/
 *.wav
 *.mp3
+*.log
 
-# IDE
+# IDE / OS
 .vscode/
-.idea/" > .gitignore
+.idea/
+.DS_Store
